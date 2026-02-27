@@ -1,0 +1,18 @@
+public class JavaDescription {
+
+    public static void main(String[] args) {
+
+        // Description stored in variables
+        String level = "high-level";
+        String type = "object-oriented";
+        String usage = "web, mobile, desktop, and enterprise systems";
+        String creator = "Sun Microsystems";
+        int yearCreated = 1995;
+        String currentOwner = "Oracle Corporation";
+
+        // Printing the description
+        System.out.println("Java is a " + level + ", " + type + " programminglanguage used to build applications for " + usage + ".");
+
+        System.out.println("It was created by " + creator + " in " + yearCreated + " and is now owned by " + currentOwner + ".");
+}
+}
