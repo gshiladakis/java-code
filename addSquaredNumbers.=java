@@ -1,0 +1,12 @@
+private int addSquaredNumbers(int x, int y) {
+  System.out.println("x is " + x);
+  System.out.println("y is " + y);
+  System.out.println("Starting to take squares");
+  int xsq = x * x;
+  int ysq = y * y;
+  System.out.println("x square is " + xsq);
+  System.out.println("y square is " + ysq);
+  int sum = xsq * ysq;
+  System.out.println("Sum of sqaures is " + sum);
+  return sum;
+}
